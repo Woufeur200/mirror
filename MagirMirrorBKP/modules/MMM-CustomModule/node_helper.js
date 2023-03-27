@@ -7,6 +7,7 @@ module.exports = NodeHelper.create({
     this.clients = [];
   },
 
+  
   connectMqtt: function(config) {
     var self = this;
     var client;
